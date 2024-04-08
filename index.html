@@ -467,6 +467,39 @@
         </li>
        </ul>
       </div>
+      <div class="catalog__section" data-ws-testid="catalog.section" id="ML_BUNDLE">
+       <h4 class="catalog__section-title mb-6" data-ws-testid="catalog.section-title">
+        Daily Bundles
+       </h4>
+       <ul class="grid gap-5 w-full sm:grid-cols-catalog-2-grid" data-ws-testid="catalog.section-sku-list">
+        <li class="min-w-0" data-ws-testid="catalog.sku">
+         <a aria-label="Sign in" class="anchor-button-link" data-ws-testid="sku-card.sign-in-link" href="https://signin.nianticlabs.com/signin?service=webstore-sentry-pgo&amp;continue=https://store.pokemongolive.com/api/auth/login&amp;refresh=1&amp;state=/">
+          <anchor-card banner="false" data-category="ML_BUNDLE" data-testid="catalog-card-ml_default_sku_id" data-ws-testid="sku-card.container-ml_default_sku_id">
+           <div class="relative flex w-full flex-col items-center" data-ws-testid="sku-card.media-content-container" slot="media-content">
+            <img alt="media_content_alt.ml_default_sku_id" class="sku-card sku-card__image--lg" data-nimg="1" data-ws-testid="sku-card.media-content" decoding="async" height="336" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fml_default_sku_id.png&amp;w=750&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fml_default_sku_id.png&amp;w=384&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fml_default_sku_id.png&amp;w=750&amp;q=75 2x" style="color:transparent" width="336"/>
+           </div>
+           <div class="sku-card__media-background-style sku-card__media-background-style--default" data-ws-testid="sku-card.media-background" slot="media-background">
+           </div>
+           <h5 class="modal-heading text-h5 break-words" data-testid="label-catalog-card-currency" data-ws-testid="sku-card.name" slot="heading">
+            Mystery Boxes
+           </h5>
+           <div class="flex flex-1 flex-col" data-ws-testid="content-main.container" slot="main">
+            <p class="mt-5" data-testid="label-catalog-card-description" data-ws-testid="content-description.description">
+             3 Daily Bundles
+            </p>
+           </div>
+           <div class="w-full space-y-5" slot="action">
+            <div class="flex w-full justify-between gap-5">
+             <anchor-button data-ws-testid="content-actions.sign-in-button" disabled="true" level="primary">
+              Sign in to view
+             </anchor-button>
+            </div>
+           </div>
+          </anchor-card>
+         </a>
+        </li>
+       </ul>
+      </div>
      </section>
      <section class="flex justify-center px-5 sm:px-20 webstore__max-width" data-ws-testid="home.app-download-banner-container">
      </section>
@@ -637,6 +670,10 @@
                         }],
                         ["POKECOINS", {
                             "labelKey": "common.virtual_currency_name",
+                            "gridType": 1
+                        }],
+                        ["ML_BUNDLE", {
+                            "labelKey": "common.daily_bundles",
                             "gridType": 1
                         }]
                     ]
@@ -1011,7 +1048,7 @@
                     "enableOfferRedemption": true,
                     "enableSbps": false,
                     "enablePromocode": true,
-                    "enableMlBundle": false
+                    "enableMlBundle": true
                 },
                 "layoutConfig": {
                     "backgroundImage": {
