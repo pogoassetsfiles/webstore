@@ -67,6 +67,11 @@
   <div id="__next">
    <div class="min-h-screen grid grid-cols-1 grid-rows-[auto_1fr_auto] webstore__background home-page" data-testid="layout.container" data-ws-testid="layout.container">
     <header class="layout-header sticky top-0 z-40 block h-fit w-full" data-testid="container-header-parent" data-ws-testid="layout-header.container">
+     <div class="header-banner flex items-center justify-center" data-ws-testid="header-banner.container">
+      <p class="text-alert header-banner__message" data-ws-testid="header-banner.message">
+       15% discount for your first Web Store purchase on any item $9.99 or more!
+      </p>
+     </div>
      <nav class="layout-header__nav px-4 sm:px-20 flex items-center justify-between mx-auto w-full">
       <a class="flex content-start items-center gap-4 whitespace-nowrap layout-header__logo" data-testid="link-header-logo" data-ws-testid="header.site-logo-redirect" href="/">
        <span class="relative h-[48px] w-[64px] overflow-hidden sm:h-[64px] sm:w-[100px]" data-ws-testid="header.site-logo-image-container">
@@ -87,16 +92,53 @@
     </header>
     <main data-ws-testid="layout-main.container">
      <section class="mb-10 sm:mb-20 hero__container webstore__max-width" data-ws-testid="home.hero-container">
-      <div class="hero w-full relative flex" data-ws-testid="hero.container">
+      <button class="hero-item w-full relative flex" data-ws-testid="hero.container">
        <div class="absolute inset-0 h-full w-full" data-ws-testid="hero.image">
         <img alt="label.image_name_here" class="h-full w-full object-cover" data-nimg="1" decoding="async" fetchpriority="high" height="600" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2Fhero_season_15.jpg&amp;w=3840&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2Fhero_season_15.jpg&amp;w=1920&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2Fhero_season_15.jpg&amp;w=3840&amp;q=75 2x" style="color:transparent" width="1344"/>
        </div>
-       <div class="hero__overlay absolute inset-0" data-ws-testid="hero.overlay">
+       <div class="hero-item__overlay absolute inset-0" data-ws-testid="hero.overlay">
        </div>
-       <h1 class="hero__message w-full p-5 xs:py-12 sm:px-14 sm:py-16 z-10" data-ws-testid="hero.message">
-        15% discount for your first Web Store purchase on any item $9.99 or more!
-       </h1>
-      </div>
+       <div class="z-10 flex h-full flex-1 flex-col items-start p-5 sm:p-14" data-ws-testid="hero-item.content-container">
+        <h1 class="hero-item__message text-h4 w-full" data-ws-testid="hero.message">
+         Pokémon GO Fest 2024: Global Ticket
+        </h1>
+        <anchor-tag>
+         LIMITED-TIME ONLY
+        </anchor-tag>
+        <div class="relative flex flex-1 flex-col justify-center sm:w-[50%]" data-ws-testid="hero-item.sku-bundled-items-container">
+         <img alt="web-go-fest-2024-ticket" data-nimg="1" data-ws-testid="hero-item.sku-image" decoding="async" height="250" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fweb-go-fest-2024-ticket.png&amp;w=640&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fweb-go-fest-2024-ticket.png&amp;w=256&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fweb-go-fest-2024-ticket.png&amp;w=640&amp;q=75 2x" style="color:transparent" width="250"/>
+         <ul class="text-body flex w-full gap-x-4 gap-y-4 sm:gap-y-5 justify-start" data-ws-testid="content-bundled.container">
+          <li class="relative mr-1 flex w-max flex-row items-center h-12 w-12 sm:h-16 sm:w-16" data-ws-testid="content-bundled.item">
+           <img alt="ITEM_GLOBAL_EVENT_TICKET" class="h-12 w-12 sm:h-16 sm:w-16 object-scale-down" data-nimg="1" decoding="async" height="48" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_global_event_ticket.png&amp;w=96&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_global_event_ticket.png&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_global_event_ticket.png&amp;w=96&amp;q=75 2x" style="color:transparent;filter:drop-shadow(0px 0px 4px rgba(255, 255, 255, 1))" width="48"/>
+           <span class="gap-2 px-2 absolute flex justify-end self-end bottom-[-10px] right-[-10px] rounded-[1000px] bg-[#fff]" style="box-shadow:0px 7.5px 7.5px 0px rgba(0, 0, 0, 0.15)">
+            1
+           </span>
+          </li>
+          <li class="relative mr-1 flex w-max flex-row items-center h-12 w-12 sm:h-16 sm:w-16" data-ws-testid="content-bundled.item">
+           <img alt="AVATAR_f_shirt_gofest2024gray" class="h-12 w-12 sm:h-16 sm:w-16 object-scale-down" data-nimg="1" decoding="async" height="48" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Favatar_f_shirt_gofest2024gray.png&amp;w=96&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Favatar_f_shirt_gofest2024gray.png&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Favatar_f_shirt_gofest2024gray.png&amp;w=96&amp;q=75 2x" style="color:transparent;filter:drop-shadow(0px 0px 4px rgba(255, 255, 255, 1))" width="48"/>
+           <span class="gap-2 px-2 absolute flex justify-end self-end bottom-[-10px] right-[-10px] rounded-[1000px] bg-[#fff]" style="box-shadow:0px 7.5px 7.5px 0px rgba(0, 0, 0, 0.15)">
+            1
+           </span>
+          </li>
+          <li class="relative mr-1 flex w-max flex-row items-center h-12 w-12 sm:h-16 sm:w-16" data-ws-testid="content-bundled.item">
+           <img alt="AVATAR_m_shirt_gofest2024gray" class="h-12 w-12 sm:h-16 sm:w-16 object-scale-down" data-nimg="1" decoding="async" height="48" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Favatar_m_shirt_gofest2024gray.png&amp;w=96&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Favatar_m_shirt_gofest2024gray.png&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Favatar_m_shirt_gofest2024gray.png&amp;w=96&amp;q=75 2x" style="color:transparent;filter:drop-shadow(0px 0px 4px rgba(255, 255, 255, 1))" width="48"/>
+           <span class="gap-2 px-2 absolute flex justify-end self-end bottom-[-10px] right-[-10px] rounded-[1000px] bg-[#fff]" style="box-shadow:0px 7.5px 7.5px 0px rgba(0, 0, 0, 0.15)">
+            1
+           </span>
+          </li>
+         </ul>
+        </div>
+        <div class="flex gap-2">
+         <anchor-button aria-description="Buy" level="primary">
+          <a class="anchor-button-link" href="/purchase/item/web-go-fest-2024-ticket">
+           <span data-ws-testid="hero-item.price">
+            €17.99
+           </span>
+          </a>
+         </anchor-button>
+        </div>
+       </div>
+      </button>
      </section>
      <section class="mb-10 sm:mb-20 flex flex-col gap-10 px-4 sm:px-20 webstore__max-width" data-ws-testid="home.catalog-container">
       <div class="mx-auto my-10 w-full sm:max-w-[1056px] sm:px-20 grid" data-ws-testid="catalog.featured-sku">
@@ -160,10 +202,7 @@
        </h4>
        <ul class="grid gap-5 w-full sm:grid-cols-catalog-2-grid" data-ws-testid="catalog.section-sku-list">
         <li class="min-w-0" data-ws-testid="catalog.sku">
-         <anchor-card banner="true" compact="true" data-category="BUNDLE" data-sku-id="web-go-fest-2024-ticket" data-testid="catalog-card-web-go-fest-2024-ticket-featured" data-ws-testid="sku-card.container-web-go-fest-2024-ticket-featured" id="">
-          <anchor-tag data-testid="label-catalog-card-headerTag" data-ws-testid="media-tags.tag" slot="media-tag">
-           FEATURED
-          </anchor-tag>
+         <anchor-card banner="false" compact="true" data-category="BUNDLE" data-sku-id="web-go-fest-2024-ticket" data-testid="catalog-card-web-go-fest-2024-ticket" data-ws-testid="sku-card.container-web-go-fest-2024-ticket" id="">
           <anchor-tag data-testid="label-catalog-card-headerTag" data-ws-testid="media-tags.tag" slot="media-tag">
            WEB-EXCLUSIVE
           </anchor-tag>
@@ -171,22 +210,22 @@
            ONE TIME ONLY
           </anchor-tag>
           <div class="relative flex w-full flex-col items-center object-contain" data-ws-testid="sku-card.media-content-container" slot="media-content">
-           <img alt="media_content_alt.web-go-fest-2024-ticket" class="sku-card sku-card__image--featured" data-nimg="1" data-ws-testid="sku-card.media-content" decoding="async" height="336" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fweb-go-fest-2024-ticket.png&amp;w=750&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fweb-go-fest-2024-ticket.png&amp;w=384&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fweb-go-fest-2024-ticket.png&amp;w=750&amp;q=75 2x" style="color:transparent" width="336"/>
+           <img alt="media_content_alt.web-go-fest-2024-ticket" class="sku-card sku-card__image--md" data-nimg="1" data-ws-testid="sku-card.media-content" decoding="async" height="336" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fweb-go-fest-2024-ticket.png&amp;w=750&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fweb-go-fest-2024-ticket.png&amp;w=384&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fweb-go-fest-2024-ticket.png&amp;w=750&amp;q=75 2x" style="color:transparent" width="336"/>
            <ul class="text-body flex w-full gap-x-4 gap-y-4 sm:gap-y-5 relative flex-wrap-reverse justify-center" data-ws-testid="content-bundled.container">
-            <li class="relative mr-1 flex w-max flex-row items-center h-10 w-10 sm:h-14 sm:w-14" data-ws-testid="content-bundled.item">
-             <img alt="ITEM_GLOBAL_EVENT_TICKET" class="h-10 w-10 sm:h-14 sm:w-14 object-scale-down" data-nimg="1" decoding="async" height="48" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_global_event_ticket.png&amp;w=96&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_global_event_ticket.png&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_global_event_ticket.png&amp;w=96&amp;q=75 2x" style="color:transparent;filter:drop-shadow(0px 0px 4px rgba(255, 255, 255, 1))" width="48"/>
+            <li class="relative mr-1 flex w-max flex-row items-center mb-2 h-8 w-8 sm:h-12 sm:w-12" data-ws-testid="content-bundled.item">
+             <img alt="ITEM_GLOBAL_EVENT_TICKET" class="mb-2 h-8 w-8 sm:h-12 sm:w-12 object-scale-down" data-nimg="1" decoding="async" height="48" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_global_event_ticket.png&amp;w=96&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_global_event_ticket.png&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_global_event_ticket.png&amp;w=96&amp;q=75 2x" style="color:transparent;filter:drop-shadow(0px 0px 4px rgba(255, 255, 255, 1))" width="48"/>
              <span class="gap-2 px-2 absolute flex justify-end self-end bottom-[-10px] right-[-10px] rounded-[1000px] bg-[#fff]" style="box-shadow:0px 7.5px 7.5px 0px rgba(0, 0, 0, 0.15)">
               1
              </span>
             </li>
-            <li class="relative mr-1 flex w-max flex-row items-center h-10 w-10 sm:h-14 sm:w-14" data-ws-testid="content-bundled.item">
-             <img alt="AVATAR_f_shirt_gofest2024gray" class="h-10 w-10 sm:h-14 sm:w-14 object-scale-down" data-nimg="1" decoding="async" height="48" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Favatar_f_shirt_gofest2024gray.png&amp;w=96&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Favatar_f_shirt_gofest2024gray.png&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Favatar_f_shirt_gofest2024gray.png&amp;w=96&amp;q=75 2x" style="color:transparent;filter:drop-shadow(0px 0px 4px rgba(255, 255, 255, 1))" width="48"/>
+            <li class="relative mr-1 flex w-max flex-row items-center mb-2 h-8 w-8 sm:h-12 sm:w-12" data-ws-testid="content-bundled.item">
+             <img alt="AVATAR_f_shirt_gofest2024gray" class="mb-2 h-8 w-8 sm:h-12 sm:w-12 object-scale-down" data-nimg="1" decoding="async" height="48" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Favatar_f_shirt_gofest2024gray.png&amp;w=96&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Favatar_f_shirt_gofest2024gray.png&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Favatar_f_shirt_gofest2024gray.png&amp;w=96&amp;q=75 2x" style="color:transparent;filter:drop-shadow(0px 0px 4px rgba(255, 255, 255, 1))" width="48"/>
              <span class="gap-2 px-2 absolute flex justify-end self-end bottom-[-10px] right-[-10px] rounded-[1000px] bg-[#fff]" style="box-shadow:0px 7.5px 7.5px 0px rgba(0, 0, 0, 0.15)">
               1
              </span>
             </li>
-            <li class="relative mr-1 flex w-max flex-row items-center h-10 w-10 sm:h-14 sm:w-14" data-ws-testid="content-bundled.item">
-             <img alt="AVATAR_m_shirt_gofest2024gray" class="h-10 w-10 sm:h-14 sm:w-14 object-scale-down" data-nimg="1" decoding="async" height="48" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Favatar_m_shirt_gofest2024gray.png&amp;w=96&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Favatar_m_shirt_gofest2024gray.png&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Favatar_m_shirt_gofest2024gray.png&amp;w=96&amp;q=75 2x" style="color:transparent;filter:drop-shadow(0px 0px 4px rgba(255, 255, 255, 1))" width="48"/>
+            <li class="relative mr-1 flex w-max flex-row items-center mb-2 h-8 w-8 sm:h-12 sm:w-12" data-ws-testid="content-bundled.item">
+             <img alt="AVATAR_m_shirt_gofest2024gray" class="mb-2 h-8 w-8 sm:h-12 sm:w-12 object-scale-down" data-nimg="1" decoding="async" height="48" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Favatar_m_shirt_gofest2024gray.png&amp;w=96&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Favatar_m_shirt_gofest2024gray.png&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Favatar_m_shirt_gofest2024gray.png&amp;w=96&amp;q=75 2x" style="color:transparent;filter:drop-shadow(0px 0px 4px rgba(255, 255, 255, 1))" width="48"/>
              <span class="gap-2 px-2 absolute flex justify-end self-end bottom-[-10px] right-[-10px] rounded-[1000px] bg-[#fff]" style="box-shadow:0px 7.5px 7.5px 0px rgba(0, 0, 0, 0.15)">
               1
              </span>
@@ -195,11 +234,11 @@
           </div>
           <div class="sku-card__media-background-style" data-ws-testid="sku-card.media-background" slot="media-background" style="background-image:linear-gradient(0deg,rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)),linear-gradient(315deg, #ff68b1 0%, #ffe6e0 98.97%)">
           </div>
-          <h4 class="featured text-h4 break-words" data-testid="label-catalog-card-currency" data-ws-testid="sku-card.name" slot="heading">
+          <h6 class="text-h6 break-words" data-testid="label-catalog-card-currency" data-ws-testid="sku-card.name" slot="heading">
            Pokémon GO Fest 2024: Global Ticket
-          </h4>
+          </h6>
           <div class="flex flex-1 flex-col" data-ws-testid="content-main.container" slot="main">
-           <div class="mt-6 flex flex-row gap-1 whitespace-pre text-h5" data-testid="label-catalog-card-price" data-ws-testid="content-price.container">
+           <div class="mt-6 flex flex-row gap-1 whitespace-pre text-body" data-testid="label-catalog-card-price" data-ws-testid="content-price.container">
             <div class="mt-auto flex items-center gap-1">
              <p data-ws-testid="content-price.price">
               €17.99
@@ -888,9 +927,6 @@
                             "key": "FRONTEND_TAG_LIMITED_TIME",
                             "value": "sku.tag.capital.limited_time_only"
                         }, {
-                            "key": "FRONTEND_MEDIA_TAG_FEATURED",
-                            "value": "sku.tag.capital.featured"
-                        }, {
                             "key": "FRONTEND_MEDIA_TAG_WEB_EXCLUSIVE",
                             "value": "global.label.caps.web_exclusive"
                         }, {
@@ -1239,10 +1275,23 @@
                         "altLabelKey": "label.image_name_here",
                         "url": ""
                     },
-                    "heroLocalizationNameKey": "hero.message",
+                    "heroLocalizationNameKey": "hero.webstore_message",
                     "cssClassName": "",
-                    "heroType": 0
-                }]
+                    "heroType": 2,
+                    "highlightSku": {
+                        "skuId": "web-go-fest-2024-ticket",
+                        "tag": {
+                            "key": "sku.tag.limited_time_only",
+                            "value": "sku.tag.limited_time_only"
+                        }
+                    }
+                }],
+                "bannerConfig": {
+                    "defaultBannerLocalizationKey": "banner.message",
+                    "countryBannerLocalizationKeyMap": [
+                        ["JP", "banner.message_jp"]
+                    ]
+                }
             },
             "_nextI18Next": {
                 "initialI18nStore": {
