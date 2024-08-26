@@ -7,7 +7,7 @@
   <title>
    Home : Pokémon GO Web Store
   </title>
-  <link as="image" fetchpriority="high" imagesrcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2Fhero_default.png&amp;w=1920&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2Fhero_default.png&amp;w=3840&amp;q=75 2x" rel="preload"/>
+  <link as="image" fetchpriority="high" imagesrcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2Fhero_ultra_cd_ticket_box_aug_2024.png&amp;w=1920&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2Fhero_ultra_cd_ticket_box_aug_2024.png&amp;w=3840&amp;q=75 2x" rel="preload"/>
   <meta content="5" name="next-head-count"/>
   <link href="https://storage.googleapis.com/platform-webstore-rel-assets/pgo/site_assets/styles.production.css" rel="stylesheet"/>
   <link as="font" crossorigin="anonymous" data-next-font="size-adjust" href="/_next/static/media/6c276159aa0eb14b-s.p.woff2" rel="preload" type="font/woff2"/>
@@ -92,16 +92,57 @@
     </header>
     <main data-ws-testid="layout-main.container">
      <section class="hero__container webstore__max-width" data-ws-testid="home.hero-container">
-      <div class="hero w-full relative flex" data-ws-testid="hero.container">
+      <button class="hero-item w-full relative flex" data-ws-testid="hero.container">
        <div class="absolute inset-0 h-full w-full" data-ws-testid="hero.image">
-        <img alt="hero background image" class="h-full w-full object-cover" data-nimg="1" decoding="async" fetchpriority="high" height="600" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2Fhero_default.png&amp;w=3840&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2Fhero_default.png&amp;w=1920&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2Fhero_default.png&amp;w=3840&amp;q=75 2x" style="color:transparent" width="1344"/>
+        <img alt="hero background image" class="h-full w-full object-cover" data-nimg="1" decoding="async" fetchpriority="high" height="600" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2Fhero_ultra_cd_ticket_box_aug_2024.png&amp;w=3840&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2Fhero_ultra_cd_ticket_box_aug_2024.png&amp;w=1920&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsite_assets%2Fhero_ultra_cd_ticket_box_aug_2024.png&amp;w=3840&amp;q=75 2x" style="color:transparent" width="1344"/>
        </div>
-       <div class="hero__overlay absolute inset-0" data-ws-testid="hero.overlay">
+       <div class="hero-item__overlay absolute inset-0" data-ws-testid="hero.overlay">
        </div>
-       <h1 class="hero__message w-full p-5 xs:py-12 sm:px-14 sm:py-16 z-10" data-ws-testid="hero.message">
-        15% discount for your first Web Store purchase on any item $9.99 or more!
-       </h1>
-      </div>
+       <div class="z-10 flex h-full flex-1 flex-col items-start p-5 sm:p-14" data-ws-testid="hero-item.content-container">
+        <h1 class="hero-item__message text-h4 w-full" data-ws-testid="hero.message">
+         Ultra Community Day Box
+        </h1>
+        <anchor-tag>
+         LIMITED-TIME ONLY
+        </anchor-tag>
+        <div class="relative flex flex-1 flex-col justify-center sm:w-full" data-ws-testid="hero-item.sku-bundled-items-container">
+         <img alt="web-ultra-cd-ticket-box" class="object-contain flex-1 h-min" data-nimg="1" data-ws-testid="hero-item.sku-image" decoding="async" height="250" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fweb-ultra-cd-ticket-box.png&amp;w=640&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fweb-ultra-cd-ticket-box.png&amp;w=256&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fweb-ultra-cd-ticket-box.png&amp;w=640&amp;q=75 2x" style="color:transparent;max-height:250px" width="250"/>
+         <ul class="text-body w-full gap-x-4 gap-y-4 sm:gap-y-5 flex flex-wrap mt-4 justify-start" data-ws-testid="content-bundled.container">
+          <li class="relative flex flex-row items-center mr-1 w-max mb-2 h-8 w-8 xs:h-10 xs:w-10 sm:h-12 sm:w-12" data-item-id="ITEM_ULTRA_BALL" data-ws-testid="content-bundled.item">
+           <img alt="ITEM_ULTRA_BALL" class="mb-2 h-8 w-8 xs:h-10 xs:w-10 sm:h-12 sm:w-12 object-scale-down" data-nimg="1" decoding="async" height="40" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_ultra_ball.png&amp;w=96&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_ultra_ball.png&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_ultra_ball.png&amp;w=96&amp;q=75 2x" style="color:transparent;filter:drop-shadow(0px 0px 4px rgba(255, 255, 255, 1))" width="40"/>
+           <span class="bg-white absolute bottom-[-10px] right-[-10px] px-2 last:rounded-[1000px] flex justify-end gap-2 self-end" style="box-shadow:0px 7.5px 7.5px 0px rgba(0, 0, 0, 0.15)">
+            10
+           </span>
+          </li>
+          <li class="relative flex flex-row items-center mr-1 w-max mb-2 h-8 w-8 xs:h-10 xs:w-10 sm:h-12 sm:w-12" data-item-id="ITEM_MOVE_REROLL_ELITE_SPECIAL_ATTACK" data-ws-testid="content-bundled.item">
+           <img alt="ITEM_MOVE_REROLL_ELITE_SPECIAL_ATTACK" class="mb-2 h-8 w-8 xs:h-10 xs:w-10 sm:h-12 sm:w-12 object-scale-down" data-nimg="1" decoding="async" height="40" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_move_reroll_elite_special_attack.png&amp;w=96&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_move_reroll_elite_special_attack.png&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_move_reroll_elite_special_attack.png&amp;w=96&amp;q=75 2x" style="color:transparent;filter:drop-shadow(0px 0px 4px rgba(255, 255, 255, 1))" width="40"/>
+           <span class="bg-white absolute bottom-[-10px] right-[-10px] px-2 last:rounded-[1000px] flex justify-end gap-2 self-end" style="box-shadow:0px 7.5px 7.5px 0px rgba(0, 0, 0, 0.15)">
+            1
+           </span>
+          </li>
+          <li class="relative flex flex-row items-center mr-1 w-max mb-2 h-8 w-8 xs:h-10 xs:w-10 sm:h-12 sm:w-12" data-item-id="ITEM_EVENT_TICKET_PINK" data-ws-testid="content-bundled.item">
+           <img alt="ITEM_EVENT_TICKET_PINK" class="mb-2 h-8 w-8 xs:h-10 xs:w-10 sm:h-12 sm:w-12 object-scale-down" data-nimg="1" decoding="async" height="40" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_event_ticket_pink.png&amp;w=96&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_event_ticket_pink.png&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_event_ticket_pink.png&amp;w=96&amp;q=75 2x" style="color:transparent;filter:drop-shadow(0px 0px 4px rgba(255, 255, 255, 1))" width="40"/>
+           <span class="bg-white absolute bottom-[-10px] right-[-10px] px-2 last:rounded-[1000px] flex justify-end gap-2 self-end" style="box-shadow:0px 7.5px 7.5px 0px rgba(0, 0, 0, 0.15)">
+            1
+           </span>
+          </li>
+         </ul>
+        </div>
+        <div class="flex gap-2">
+         <anchor-button aria-description="Buy" level="primary">
+          <a class="anchor-button-link" href="/purchase/item/web-ultra-cd-ticket-box">
+           <span class="flex" data-ws-testid="hero-item.price">
+            <div class="mt-auto flex items-center gap-1">
+             <p data-ws-testid="sku-price.price-with-or-without-discount">
+              €5.99
+             </p>
+            </div>
+           </span>
+          </a>
+         </anchor-button>
+        </div>
+       </div>
+      </button>
      </section>
      <section class="mb-10 sm:mb-20 flex flex-col gap-10 px-4 sm:px-20 webstore__max-width" data-ws-testid="home.catalog-container">
       <nav class="custom-nav" data-ws-testid="layout-nav.container" style="top:130px">
@@ -1121,20 +1162,20 @@
             "campaignConfig": {
                 "heroConfigList": [{
                     "heroImage": {
-                        "fileName": "hero_default.png",
+                        "fileName": "hero_ultra_cd_ticket_box_aug_2024.png",
                         "widthPx": 1344,
                         "heightPx": 600,
                         "altLabelKey": "label.image_name_here",
                         "url": ""
                     },
-                    "heroLocalizationNameKey": "hero.message",
+                    "heroLocalizationNameKey": "hero.webstore_message",
                     "cssClassName": "",
-                    "heroType": 1,
+                    "heroType": 2,
                     "highlightSku": {
-                        "skuId": "",
+                        "skuId": "web-ultra-cd-ticket-box",
                         "tag": {
-                            "key": "",
-                            "value": ""
+                            "key": "sku.tag.limited_time_only",
+                            "value": "sku.tag.limited_time_only"
                         }
                     }
                 }],
