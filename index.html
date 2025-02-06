@@ -84,6 +84,11 @@
           Code Redemption
          </a>
         </anchor-button>
+        <anchor-button level="secondary">
+         <a class="anchor-button-link-border-radius" data-ga-event-action="click" data-ga-event-category="Internal Link" data-ga-event-label="Event Ticketing" data-ga-on="click" data-testid="link-header-eventTicketing" data-ws-testid="layout-header.event-ticketing-link" href="/api/redirect/event-ticketing">
+          Event Ticketing
+         </a>
+        </anchor-button>
        </div>
       </div>
      </nav>
@@ -1636,7 +1641,7 @@
                     "enableMlBundle": true,
                     "enableRewardedSpend": false,
                     "showGiftCardRedemptionUnavailableMessage": false,
-                    "enableEventTicketLink": false
+                    "enableEventTicketLink": true
                 },
                 "layoutConfig": {
                     "backgroundImage": {
@@ -1835,7 +1840,7 @@
                     "enablePaymentSettings": false
                 },
                 "eventTicketingConfig": {
-                    "eventTicketingUrl": ""
+                    "eventTicketingUrl": "https://tickets.nianticlabs.com/events/?appId=pgo\u0026wst={webstoreToken}"
                 }
             },
             "envSpecificClientConfig": {
