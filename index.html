@@ -467,6 +467,15 @@
         <div class="grid gap-5 w-full sm:grid-cols-catalog-4-grid" data-category="BUNDLE" data-ws-testid="catalog.section-sku-list">
          <article class="webstore-sku-card h-full w-full overflow-auto row-span-2 grid grid-rows-subgrid gap-y-0 cursor-pointer overflow-hidden" data-sku-category="BUNDLE" data-ws-testid="sku-card.container-web-deep-depths-ticket-box">
           <div class="webstore-sku-card__media w-full pb-10" data-ws-testid="sku-card.media-content-container" style="background-color:#DAEBE9">
+           <span class="w-full">
+            <div class="webstore-sku-card__countdown_timer flex justify-center gap-2 relative z-[1] py-1">
+             <span class="w-4">
+             </span>
+             <p data-ws-testid="sku-card.timer.remaining-time">
+              7 DAYS LEFT
+             </p>
+            </div>
+           </span>
            <div class="p-4 flex flex-col items-center justify-center">
             <div class="webstore-sku-card__tags mb-auto flex w-full flex-grow-0 flex-wrap gap-2" data-tags-type="primary">
              <div class="webstore-sku-card__tag text-caption h-min rounded-sm px-2 py-1" data-tag-type="primary" data-ws-testid="sku-card.tag">
@@ -529,7 +538,7 @@
              <span class="w-4">
              </span>
              <p data-ws-testid="sku-card.timer.remaining-time">
-              6 DAYS LEFT
+              5 DAYS LEFT
              </p>
             </div>
            </span>
@@ -583,71 +592,6 @@
             <div class="flex items-center gap-5">
              <anchor-button disabled="false" level="primary">
               <a class="webstore-sku-card__action-button w-max px-8 anchor-button-link" data-ws-testid="sku-card.action-buy-button" href="/purchase/item/web-march-cdc-ticket-box">
-               <div class="mt-auto flex items-center gap-1">
-                <p data-ws-testid="sku-price.price-with-or-without-discount">
-                 €5.49
-                </p>
-               </div>
-              </a>
-             </anchor-button>
-            </div>
-            <div class="pt-2" data-ws-testid="content-actions.invalid-purchase">
-            </div>
-           </div>
-          </div>
-         </article>
-         <article class="webstore-sku-card h-full w-full overflow-auto row-span-2 grid grid-rows-subgrid gap-y-0 cursor-pointer overflow-hidden" data-sku-category="BUNDLE" data-ws-testid="sku-card.container-web-season-18-start-box">
-          <div class="webstore-sku-card__media w-full pb-10" data-ws-testid="sku-card.media-content-container" style="background-color:#DAEBE9">
-           <div class="p-4 flex flex-col items-center justify-center">
-            <div class="webstore-sku-card__tags mb-auto flex w-full flex-grow-0 flex-wrap gap-2" data-tags-type="primary">
-             <div class="webstore-sku-card__tag text-caption h-min rounded-sm px-2 py-1" data-tag-type="primary" data-ws-testid="sku-card.tag">
-              LIMITED-TIME ONLY
-             </div>
-            </div>
-            <div class="relative">
-             <img alt="Might and Mastery Box" class="webstore-sku-card__media-image relative h-auto z-[5]" data-nimg="1" data-type="default" data-ws-testid="sku-card.media-content" decoding="async" height="150" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fbundle.general4.small.1.png&amp;w=384&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fbundle.general4.small.1.png&amp;w=256&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fbundle.general4.small.1.png&amp;w=384&amp;q=75 2x" style="color:transparent" width="150"/>
-            </div>
-            <ul class="w-full flex flex-wrap-reverse justify-center gap-x-4 gap-y-4 sm:gap-y-5">
-             <li class="relative mr-1 w-max flex items-center" data-item-id="ITEM_POSTCARD_STORAGE_UPGRADE">
-              <div class="relative item-image-badge" data-ws-testid="bundled-item-badge.container">
-               <img alt="Postcard Pages" class="item-image-badge__image" data-nimg="1" data-ws-testid="bundled-item-badge.image" decoding="async" height="48" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_postcard_storage_upgrade.png&amp;w=96&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_postcard_storage_upgrade.png&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_postcard_storage_upgrade.png&amp;w=96&amp;q=75 2x" style="color:transparent" width="48"/>
-               <span class="item-image-badge__badge text-caption" data-ws-testid="bundled-item-badge.badge-quantity">
-                1
-               </span>
-              </div>
-             </li>
-             <li class="relative mr-1 w-max flex items-center" data-item-id="ITEM_REMOTE_RAID_TICKET">
-              <div class="relative item-image-badge" data-ws-testid="bundled-item-badge.container">
-               <img alt="Remote Raid Pass" class="item-image-badge__image" data-nimg="1" data-ws-testid="bundled-item-badge.image" decoding="async" height="48" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_remote_raid_ticket.png&amp;w=96&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_remote_raid_ticket.png&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_remote_raid_ticket.png&amp;w=96&amp;q=75 2x" style="color:transparent" width="48"/>
-               <span class="item-image-badge__badge text-caption" data-ws-testid="bundled-item-badge.badge-quantity">
-                3
-               </span>
-              </div>
-             </li>
-             <li class="relative mr-1 w-max flex items-center" data-item-id="ITEM_PAID_RAID_TICKET">
-              <div class="relative item-image-badge" data-ws-testid="bundled-item-badge.container">
-               <img alt="Premium Battle Pass" class="item-image-badge__image" data-nimg="1" data-ws-testid="bundled-item-badge.image" decoding="async" height="48" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_paid_raid_ticket.png&amp;w=96&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_paid_raid_ticket.png&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_paid_raid_ticket.png&amp;w=96&amp;q=75 2x" style="color:transparent" width="48"/>
-               <span class="item-image-badge__badge text-caption" data-ws-testid="bundled-item-badge.badge-quantity">
-                2
-               </span>
-              </div>
-             </li>
-            </ul>
-           </div>
-          </div>
-          <div class="p-5 gap-5 flex flex-col items-start">
-           <div class="webstore-sku-card__content flex flex-col" data-ws-testid="content-main.container">
-            <p class="text-h6 mb-1" data-ws-testid="sku-card.name">
-             Might and Mastery Box
-            </p>
-            <p class="webstore-sku-card__purchase-limit-tag text-caption" data-ws-testid="content-description.purchase-limit">
-             Can only be purchased 3 times.
-            </p>
-           </div>
-           <div class="mt-auto webstore-sku-card__actions" data-ws-testid="sku-card.actions-container">
-            <div class="flex items-center gap-5">
-             <anchor-button disabled="false" level="primary">
-              <a class="webstore-sku-card__action-button w-max px-8 anchor-button-link" data-ws-testid="sku-card.action-buy-button" href="/purchase/item/web-season-18-start-box">
                <div class="mt-auto flex items-center gap-1">
                 <p data-ws-testid="sku-price.price-with-or-without-discount">
                  €5.49
@@ -737,7 +681,7 @@
            <div class="p-4 flex flex-col items-center justify-center">
             <div class="webstore-sku-card__tags mb-auto flex w-full flex-grow-0 flex-wrap gap-2" data-tags-type="primary">
              <div class="webstore-sku-card__tag text-caption h-min rounded-sm px-2 py-1" data-tag-type="primary" data-ws-testid="sku-card.tag">
-              POPULAR
+              LIMITED-TIME ONLY
              </div>
             </div>
             <div class="relative">
@@ -784,6 +728,71 @@
             <div class="flex items-center gap-5">
              <anchor-button disabled="false" level="primary">
               <a class="webstore-sku-card__action-button w-max px-8 anchor-button-link" data-ws-testid="sku-card.action-buy-button" href="/purchase/item/web-raid-box-1223">
+               <div class="mt-auto flex items-center gap-1">
+                <p data-ws-testid="sku-price.price-with-or-without-discount">
+                 €5.49
+                </p>
+               </div>
+              </a>
+             </anchor-button>
+            </div>
+            <div class="pt-2" data-ws-testid="content-actions.invalid-purchase">
+            </div>
+           </div>
+          </div>
+         </article>
+         <article class="webstore-sku-card h-full w-full overflow-auto row-span-2 grid grid-rows-subgrid gap-y-0 cursor-pointer overflow-hidden" data-sku-category="BUNDLE" data-ws-testid="sku-card.container-web-season-18-start-box">
+          <div class="webstore-sku-card__media w-full pb-10" data-ws-testid="sku-card.media-content-container" style="background-color:#DAEBE9">
+           <div class="p-4 flex flex-col items-center justify-center">
+            <div class="webstore-sku-card__tags mb-auto flex w-full flex-grow-0 flex-wrap gap-2" data-tags-type="primary">
+             <div class="webstore-sku-card__tag text-caption h-min rounded-sm px-2 py-1" data-tag-type="primary" data-ws-testid="sku-card.tag">
+              LIMITED-TIME ONLY
+             </div>
+            </div>
+            <div class="relative">
+             <img alt="Might and Mastery Box" class="webstore-sku-card__media-image relative h-auto z-[5]" data-nimg="1" data-type="default" data-ws-testid="sku-card.media-content" decoding="async" height="150" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fbundle.general4.small.1.png&amp;w=384&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fbundle.general4.small.1.png&amp;w=256&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fbundle.general4.small.1.png&amp;w=384&amp;q=75 2x" style="color:transparent" width="150"/>
+            </div>
+            <ul class="w-full flex flex-wrap-reverse justify-center gap-x-4 gap-y-4 sm:gap-y-5">
+             <li class="relative mr-1 w-max flex items-center" data-item-id="ITEM_POSTCARD_STORAGE_UPGRADE">
+              <div class="relative item-image-badge" data-ws-testid="bundled-item-badge.container">
+               <img alt="Postcard Pages" class="item-image-badge__image" data-nimg="1" data-ws-testid="bundled-item-badge.image" decoding="async" height="48" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_postcard_storage_upgrade.png&amp;w=96&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_postcard_storage_upgrade.png&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_postcard_storage_upgrade.png&amp;w=96&amp;q=75 2x" style="color:transparent" width="48"/>
+               <span class="item-image-badge__badge text-caption" data-ws-testid="bundled-item-badge.badge-quantity">
+                1
+               </span>
+              </div>
+             </li>
+             <li class="relative mr-1 w-max flex items-center" data-item-id="ITEM_REMOTE_RAID_TICKET">
+              <div class="relative item-image-badge" data-ws-testid="bundled-item-badge.container">
+               <img alt="Remote Raid Pass" class="item-image-badge__image" data-nimg="1" data-ws-testid="bundled-item-badge.image" decoding="async" height="48" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_remote_raid_ticket.png&amp;w=96&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_remote_raid_ticket.png&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_remote_raid_ticket.png&amp;w=96&amp;q=75 2x" style="color:transparent" width="48"/>
+               <span class="item-image-badge__badge text-caption" data-ws-testid="bundled-item-badge.badge-quantity">
+                3
+               </span>
+              </div>
+             </li>
+             <li class="relative mr-1 w-max flex items-center" data-item-id="ITEM_PAID_RAID_TICKET">
+              <div class="relative item-image-badge" data-ws-testid="bundled-item-badge.container">
+               <img alt="Premium Battle Pass" class="item-image-badge__image" data-nimg="1" data-ws-testid="bundled-item-badge.image" decoding="async" height="48" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_paid_raid_ticket.png&amp;w=96&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_paid_raid_ticket.png&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fitem_paid_raid_ticket.png&amp;w=96&amp;q=75 2x" style="color:transparent" width="48"/>
+               <span class="item-image-badge__badge text-caption" data-ws-testid="bundled-item-badge.badge-quantity">
+                2
+               </span>
+              </div>
+             </li>
+            </ul>
+           </div>
+          </div>
+          <div class="p-5 gap-5 flex flex-col items-start">
+           <div class="webstore-sku-card__content flex flex-col" data-ws-testid="content-main.container">
+            <p class="text-h6 mb-1" data-ws-testid="sku-card.name">
+             Might and Mastery Box
+            </p>
+            <p class="webstore-sku-card__purchase-limit-tag text-caption" data-ws-testid="content-description.purchase-limit">
+             Can only be purchased 3 times.
+            </p>
+           </div>
+           <div class="mt-auto webstore-sku-card__actions" data-ws-testid="sku-card.actions-container">
+            <div class="flex items-center gap-5">
+             <anchor-button disabled="false" level="primary">
+              <a class="webstore-sku-card__action-button w-max px-8 anchor-button-link" data-ws-testid="sku-card.action-buy-button" href="/purchase/item/web-season-18-start-box">
                <div class="mt-auto flex items-center gap-1">
                 <p data-ws-testid="sku-price.price-with-or-without-discount">
                  €5.49
@@ -1860,64 +1869,6 @@
                         "rewardedSpendPoints": 0,
                         "skuTemplateId": ""
                     }, {
-                        "skuId": "web-season-18-start-box",
-                        "localizationNameKey": "sku.name.web-season-18-start-box",
-                        "description": " ",
-                        "imageUrl": "https://storage.googleapis.com/platform-webstore-rel-assets/pgo/sku_assets/bundle.general4.small.1.png",
-                        "state": 2,
-                        "priceList": [{
-                            "priceE6": 5490000,
-                            "currency": "EUR",
-                            "type": 2,
-                            "priceMetaData": {
-                                "originalPriceE6": 5490000,
-                                "discountPercentage": 0
-                            }
-                        }],
-                        "webstoreLimitInfo": {
-                            "purchaseLimit": 0,
-                            "purchasesRemaining": 0,
-                            "startTimeMs": 1741118400000,
-                            "endTimeMs": 1748970000000
-                        },
-                        "bundledCurrencyList": [],
-                        "bundledItemList": [{
-                            "itemId": "ITEM_POSTCARD_STORAGE_UPGRADE",
-                            "quantity": 1,
-                            "imageUrl": "",
-                            "contentTagsList": []
-                        }, {
-                            "itemId": "ITEM_REMOTE_RAID_TICKET",
-                            "quantity": 3,
-                            "imageUrl": "",
-                            "contentTagsList": []
-                        }, {
-                            "itemId": "ITEM_PAID_RAID_TICKET",
-                            "quantity": 2,
-                            "imageUrl": "",
-                            "contentTagsList": []
-                        }],
-                        "metadataList": [{
-                            "key": "FRONTEND_MEDIA_BACKGROUND_COLOR",
-                            "value": "{\"backgroundColor\": \"#DAEBE9\"}"
-                        }, {
-                            "key": "FRONTEND_PURCHASE_LIMIT",
-                            "value": "3"
-                        }, {
-                            "key": "FRONTEND_PRIMARY_TAG",
-                            "value": "{\"locKey\":\"sku.tag.limited_time_only\"}"
-                        }, {
-                            "key": "FRONTEND_ENABLE_TIMER",
-                            "value": "true"
-                        }],
-                        "category": "BUNDLE",
-                        "sortOrder": 2,
-                        "localizationEventKey": "",
-                        "vendorList": [1],
-                        "catalogType": 2,
-                        "rewardedSpendPoints": 0,
-                        "skuTemplateId": ""
-                    }, {
                         "skuId": "web-tm-fanatic-box",
                         "localizationNameKey": "sku.name.web-tm-fanatic-box",
                         "description": " ",
@@ -2018,7 +1969,65 @@
                             "value": "3"
                         }, {
                             "key": "FRONTEND_PRIMARY_TAG",
-                            "value": "{\"locKey\":\"sku.tag.popular\"}"
+                            "value": "{\"locKey\":\"sku.tag.limited_time_only\"}"
+                        }, {
+                            "key": "FRONTEND_ENABLE_TIMER",
+                            "value": "true"
+                        }],
+                        "category": "BUNDLE",
+                        "sortOrder": 3,
+                        "localizationEventKey": "",
+                        "vendorList": [1],
+                        "catalogType": 2,
+                        "rewardedSpendPoints": 0,
+                        "skuTemplateId": ""
+                    }, {
+                        "skuId": "web-season-18-start-box",
+                        "localizationNameKey": "sku.name.web-season-18-start-box",
+                        "description": " ",
+                        "imageUrl": "https://storage.googleapis.com/platform-webstore-rel-assets/pgo/sku_assets/bundle.general4.small.1.png",
+                        "state": 2,
+                        "priceList": [{
+                            "priceE6": 5490000,
+                            "currency": "EUR",
+                            "type": 2,
+                            "priceMetaData": {
+                                "originalPriceE6": 5490000,
+                                "discountPercentage": 0
+                            }
+                        }],
+                        "webstoreLimitInfo": {
+                            "purchaseLimit": 0,
+                            "purchasesRemaining": 0,
+                            "startTimeMs": 1741118400000,
+                            "endTimeMs": 1748970000000
+                        },
+                        "bundledCurrencyList": [],
+                        "bundledItemList": [{
+                            "itemId": "ITEM_POSTCARD_STORAGE_UPGRADE",
+                            "quantity": 1,
+                            "imageUrl": "",
+                            "contentTagsList": []
+                        }, {
+                            "itemId": "ITEM_REMOTE_RAID_TICKET",
+                            "quantity": 3,
+                            "imageUrl": "",
+                            "contentTagsList": []
+                        }, {
+                            "itemId": "ITEM_PAID_RAID_TICKET",
+                            "quantity": 2,
+                            "imageUrl": "",
+                            "contentTagsList": []
+                        }],
+                        "metadataList": [{
+                            "key": "FRONTEND_MEDIA_BACKGROUND_COLOR",
+                            "value": "{\"backgroundColor\": \"#DAEBE9\"}"
+                        }, {
+                            "key": "FRONTEND_PURCHASE_LIMIT",
+                            "value": "3"
+                        }, {
+                            "key": "FRONTEND_PRIMARY_TAG",
+                            "value": "{\"locKey\":\"sku.tag.limited_time_only\"}"
                         }, {
                             "key": "FRONTEND_ENABLE_TIMER",
                             "value": "true"
