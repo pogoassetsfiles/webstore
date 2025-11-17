@@ -109,6 +109,11 @@
          </button>
          <div class="custom-nav__contents" data-ws-testid="layout-nav.link-container">
           <div class="custom-nav__link-container">
+           <a class="custom-nav__link" href="#ML_FIAT_BUNDLE">
+            Recommended For You
+           </a>
+          </div>
+          <div class="custom-nav__link-container">
            <a class="custom-nav__link" href="#LIMITED_TIME">
             Limited Time
            </a>
@@ -141,6 +146,44 @@
         </div>
        </nav>
        <div>
+        <div class="mt-10 catalog__section-background py-8 catalog__web-fusion-scroll-margin" data-ws-testid="catalog.personalized-bundle-section" id="ML_FIAT_BUNDLE">
+         <div class="mb-8 flex min-w-min justify-center webstore__max-width px-4 sm:px-20">
+          <div class="flex w-full items-center gap-x-7 sm:gap-14">
+           <hr class="border-1 mt-5 flex max-w-full flex-grow border-gray-200 sm:mt-3"/>
+           <div class="catalog__section-title-banner text-h5 relative flex items-center justify-center text-nowrap" id="sku.section.title-banner">
+            <span class="h-[40px] sm:h-[55px] absolute top-0 -translate-x-2/4 left-[-4px] sm:left-[-6px]">
+            </span>
+            <span class="px-5 sm:px-20">
+             RECOMMENDED FOR YOU
+            </span>
+            <span class="h-[40px] sm:h-[55px] absolute top-0 translate-x-2/4 right-[-4px] sm:right-[-6px]">
+            </span>
+           </div>
+           <hr class="border-1 mt-5 flex max-w-full flex-grow border-gray-200 sm:mt-3"/>
+          </div>
+         </div>
+         <p class="mb-8 text-center webstore__max-width px-4 sm:px-20 catalog__section-subtitle px-10" data-ws-testid="catalog.section-subtitle">
+          Personalized bundles created just for you! Resets daily at midnight.
+         </p>
+         <div class="grid gap-5 webstore__max-width px-4 sm:px-20 sm:grid-cols-catalog-2-grid" data-category="ML_FIAT_BUNDLE" data-ws-testid="catalog.section-sku-list">
+          <a aria-disabled="false" class="relative rounded-lg flex flex-col py-10 sm:flex-row items-center justify-center gap-5 sm:gap-16 ml-sign-in-to-view-card ml_fiat_bundle" data-ws-testid="layout-catalog.ml-sign-in-to-view-card" href="https://signin.nianticlabs.com/signin?service=webstore-sentry-pgo&amp;continue=https://store.pokemongo.com/api/auth/login&amp;refresh=1&amp;state=eyJyZWRpcmVjdFBhdGgiOiIvIiwib3JpZ2luIjoid2Vic3RvcmUifQ%3D%3D">
+           <div class="relative items-center">
+            <img alt="ML Default Bundle" data-nimg="1" decoding="async" height="100" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fml_default_sku_id.png&amp;w=640&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fml_default_sku_id.png&amp;w=256&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fml_default_sku_id.png&amp;w=640&amp;q=75 2x" style="color:transparent" width="214"/>
+            <div class="badge fakePrimaryTagPadding" data-badge-type="WEB_ONLY">
+             <img alt="Web only badge" data-nimg="1" data-ws-testid="sku-card.badge.image" decoding="async" height="56" loading="lazy" src="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fbadge__web_only.png&amp;w=128&amp;q=75" srcset="/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fbadge__web_only.png&amp;w=64&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fplatform-webstore-rel-assets%2Fpgo%2Fsku_assets%2Fbadge__web_only.png&amp;w=128&amp;q=75 2x" style="color:transparent" width="56"/>
+            </div>
+           </div>
+           <div class="flex flex-col items-center justify-between gap-5">
+            <h6>
+             Mystery Boxes
+            </h6>
+            <div class="webstore-button primary">
+             Sign in to view
+            </div>
+           </div>
+          </a>
+         </div>
+        </div>
         <div class="mt-10 catalog__section sm:mt-14 catalog__web-fusion-scroll-margin" data-ws-testid="catalog.section" id="LIMITED_TIME">
          <div class="mb-8 flex min-w-min justify-center webstore__max-width px-4 sm:px-20">
           <div class="flex w-full items-center gap-x-7 sm:gap-14">
@@ -3967,7 +4010,7 @@
                     "enableFirstLoginBonus": true,
                     "enableSubscription": false,
                     "enableRootCmsNavbar": false,
-                    "enablePersonalizedBundle": false,
+                    "enablePersonalizedBundle": true,
                     "enableGlobalTicketSkuCarousel": false,
                     "enableOfferPromotionBanner": false,
                     "enableAndroidDeviceDenialSplashRedirect": true,
