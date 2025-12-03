@@ -142,10 +142,22 @@
        </nav>
        <div>
         <div class="catalog__section-background mb-10 py-8 sm:mb-12 catalog__web-fusion-scroll-margin" data-ws-testid="catalog.personalized-bundle-section" id="ML_FIAT_BUNDLE">
-         <h4 class="catalog__section-title mb-2 webstore__max-width px-4 sm:px-20" data-ws-testid="catalog.section-title">
-          Recommended For You
-         </h4>
-         <p class="mb-4 webstore__max-width px-4 sm:px-20 catalog__section-subtitle px-10" data-ws-testid="catalog.section-subtitle">
+         <div class="mb-8 flex min-w-min justify-center webstore__max-width px-4 sm:px-20">
+          <div class="flex w-full items-center gap-x-7 sm:gap-14">
+           <hr class="border-1 mt-5 flex max-w-full flex-grow border-gray-200 sm:mt-3"/>
+           <div class="catalog__section-title-banner text-h5 relative flex items-center justify-center text-nowrap" id="sku.section.title-banner">
+            <span class="h-[40px] sm:h-[55px] absolute top-0 -translate-x-2/4 left-[-4px] sm:left-[-6px]">
+            </span>
+            <span class="px-5 sm:px-20">
+             RECOMMENDED FOR YOU
+            </span>
+            <span class="h-[40px] sm:h-[55px] absolute top-0 translate-x-2/4 right-[-4px] sm:right-[-6px]">
+            </span>
+           </div>
+           <hr class="border-1 mt-5 flex max-w-full flex-grow border-gray-200 sm:mt-3"/>
+          </div>
+         </div>
+         <p class="mb-8 text-center webstore__max-width px-4 sm:px-20 catalog__section-subtitle px-10" data-ws-testid="catalog.section-subtitle">
           Personalized bundles created just for you! Resets daily at midnight.
          </p>
          <div class="grid gap-5 webstore__max-width px-4 sm:px-20 sm:grid-cols-catalog-2-grid" data-category="ML_FIAT_BUNDLE" data-ws-testid="catalog.section-sku-list">
@@ -168,9 +180,21 @@
          </div>
         </div>
         <div class="catalog__section catalog__web-fusion-scroll-margin" data-ws-testid="catalog.section" id="LIMITED_TIME">
-         <h4 class="catalog__section-title mb-6 webstore__max-width px-4 sm:px-20" data-ws-testid="catalog.section-title">
-          Limited Time
-         </h4>
+         <div class="mb-8 flex min-w-min justify-center webstore__max-width px-4 sm:px-20">
+          <div class="flex w-full items-center gap-x-7 sm:gap-14">
+           <hr class="border-1 mt-5 flex max-w-full flex-grow border-gray-200 sm:mt-3"/>
+           <div class="catalog__section-title-banner text-h5 relative flex items-center justify-center text-nowrap" id="sku.section.title-banner">
+            <span class="h-[40px] sm:h-[55px] absolute top-0 -translate-x-2/4 left-[-4px] sm:left-[-6px]">
+            </span>
+            <span class="px-5 sm:px-20">
+             LIMITED TIME
+            </span>
+            <span class="h-[40px] sm:h-[55px] absolute top-0 translate-x-2/4 right-[-4px] sm:right-[-6px]">
+            </span>
+           </div>
+           <hr class="border-1 mt-5 flex max-w-full flex-grow border-gray-200 sm:mt-3"/>
+          </div>
+         </div>
          <div class="grid gap-5 webstore__max-width px-4 sm:px-20 sm:grid-cols-catalog-4-grid" data-category="LIMITED_TIME" data-ws-testid="catalog.section-sku-list">
           <button class="webstore-sku-card__container wsc" data-sku-category="LIMITED_TIME" data-sku-id="web-gotour-26-ticket-box" data-testid="sku-card.container-web-gotour-26-ticket-box" data-ws-testid="sku-card.container-web-gotour-26-ticket-box" type="button">
            <div class="mediaContainer" data-is-profile-sku-card="false" data-is-profile-sku-card-compact="false" data-show-extended-details="false" data-testid="sku-card.media-container" data-ws-testid="sku-card.media-container" style="background-color:#DAEBE9">
@@ -1982,6 +2006,12 @@
                             "subtitle": {
                                 "locKey": "",
                                 "valuesList": []
+                            },
+                            "display": {
+                                "valuesList": [{
+                                    "key": "banner.enableStoreRefreshPhaseOnePointOne",
+                                    "value": "true"
+                                }]
                             }
                         }],
                         ["ITEMS", {
@@ -1991,6 +2021,12 @@
                             "subtitle": {
                                 "locKey": "",
                                 "valuesList": []
+                            },
+                            "display": {
+                                "valuesList": [{
+                                    "key": "banner.enableStoreRefreshPhaseOnePointOne",
+                                    "value": "true"
+                                }]
                             }
                         }],
                         ["LIMITED_TIME", {
@@ -2000,6 +2036,15 @@
                             "subtitle": {
                                 "locKey": "",
                                 "valuesList": []
+                            },
+                            "display": {
+                                "valuesList": [{
+                                    "key": "banner",
+                                    "value": "true"
+                                }, {
+                                    "key": "banner.enableStoreRefreshPhaseOnePointOne",
+                                    "value": "true"
+                                }]
                             }
                         }],
                         ["ML_BUNDLE", {
@@ -2009,6 +2054,12 @@
                             "subtitle": {
                                 "locKey": "sku.section_subtitle.daily_bundles",
                                 "valuesList": []
+                            },
+                            "display": {
+                                "valuesList": [{
+                                    "key": "banner.enableStoreRefreshPhaseOnePointOne",
+                                    "value": "true"
+                                }]
                             }
                         }],
                         ["ML_FIAT_BUNDLE", {
@@ -2018,6 +2069,15 @@
                             "subtitle": {
                                 "locKey": "sku.section_subtitle.personalized_bundles",
                                 "valuesList": []
+                            },
+                            "display": {
+                                "valuesList": [{
+                                    "key": "banner",
+                                    "value": "true"
+                                }, {
+                                    "key": "banner.enableStoreRefreshPhaseOnePointOne",
+                                    "value": "true"
+                                }]
                             }
                         }],
                         ["POKECOINS", {
@@ -2027,6 +2087,12 @@
                             "subtitle": {
                                 "locKey": "",
                                 "valuesList": []
+                            },
+                            "display": {
+                                "valuesList": [{
+                                    "key": "banner.enableStoreRefreshPhaseOnePointOne",
+                                    "value": "true"
+                                }]
                             }
                         }],
                         ["REWARDEDSPEND", {
@@ -2036,6 +2102,12 @@
                             "subtitle": {
                                 "locKey": "",
                                 "valuesList": []
+                            },
+                            "display": {
+                                "valuesList": [{
+                                    "key": "banner.enableStoreRefreshPhaseOnePointOne",
+                                    "value": "true"
+                                }]
                             }
                         }],
                         ["TICKETS", {
@@ -2045,6 +2117,15 @@
                             "subtitle": {
                                 "locKey": "",
                                 "valuesList": []
+                            },
+                            "display": {
+                                "valuesList": [{
+                                    "key": "banner.enableStoreRefreshPhaseOnePointOne",
+                                    "value": "true"
+                                }, {
+                                    "key": "carousel.enableStoreRefreshPhaseOne",
+                                    "value": "true"
+                                }]
                             }
                         }]
                     ]
