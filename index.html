@@ -6190,7 +6190,21 @@ Message to minors: Please get the permission of your parent or guardian before p
                                 "manage_auto_refill": "Manage Auto-Refill",
                                 "auto_refill_off_subheading": "This feature is currently turned off. To enable it, toggle it on.",
                                 "select_amount_refill": "Select amount to refill",
-                                "account": "Account"
+                                "auto_refill_on": "Auto-Refill On",
+                                "account": "Account",
+                                "back_to_account": "Back to Account",
+                                "authorize_payment": "Authorize Payment Method",
+                                "auto-refill_confirm_description": "Confirm your payment method for when your PokéCoin Auto-Refill starts. \u003cb\u003eYou will only be charged when your balance is below the threshold you choose.\u003c/b\u003e You can cancel at any time. To cancel or manage Auto-Refill, visit your Account page on the Pokémon GO Web Store. Cancellation and changes are not available in-app. Refill cap is at {{monthlyCap}} per month or {{numRefills}} refills. Discounts and promotions will not apply for charges from this feature.",
+                                "pokecoin_auto-refill": "PokéCoin Auto-Refill",
+                                "refill_amount": "Refill Amount",
+                                "balance_less_than": "Balance is less than",
+                                "bonus_breakdown": "{{fiatBaseAmount}} + {{webstoreBonus}} Bonus = {{total}} total PokéCoins",
+                                "tos_agreement": "By proceeding I confirm I am an adult, agree to the \u003c1\u003eTerms of Service\u003c/1\u003e and acknowledge the \u003c3\u003ePrivacy Policy\u003c/3\u003e.",
+                                "tos_agreement_error": "Please confirm your age and agree to \u003c1\u003eTerms of Service\u003c/1\u003e before proceeding to payment.",
+                                "save_changes": "Save Changes",
+                                "select_threshold": "Select threshold",
+                                "select_threshold_description": "Select the PokéCoin balance that triggers Auto-Refill",
+                                "auto_refill_pending": "Auto-Refill Pending"
                             },
                             "confirmation": {
                                 "failed": {
@@ -6452,7 +6466,6 @@ Message to minors: Please get the permission of your parent or guardian before p
                                     "auto_refill_title": "PokéCoin balance running low?",
                                     "auto_refill_subtitle": "Automatically add PokéCoins when your balance is low",
                                     "auto_refill_set_up": "Set Up Auto-Refill",
-                                    "auto_refill_status_label": "Auto-Refill On",
                                     "auto_refill_active_title": "\u003cb\u003e{{amount}} PokéCoins\u003c/b\u003e added when balance is below \u003cb\u003e{{threshold}}\u003c/b\u003e"
                                 }
                             },
@@ -6513,7 +6526,40 @@ Message to minors: Please get the permission of your parent or guardian before p
                                 "heading": "Email Address (optional)",
                                 "invalid_email": "Please enter a valid email address.",
                                 "placeholder": "Type your email here",
-                                "preferred_email": "Please provide the preferred email address to receive a receipt of your purchase."
+                                "preferred_email": "Please provide the preferred email address to receive a receipt of your purchase.",
+                                "auto_refill": {
+                                    "activated": {
+                                        "subject": "You have successfully enrolled in Pokémon GO Auto-Refill",
+                                        "title": "You Have Successfully Enrolled in Auto-Refill",
+                                        "primary_message": "You will only be charged when your balance is below the threshold you choose.",
+                                        "secondary_message": "You can cancel at any time. To cancel or manage Auto-Refill, visit your Account page on the Pokémon GO Web Store. Cancellation and changes are not available in-app."
+                                    },
+                                    "common": {
+                                        "manage_label": "Manage or Cancel Auto-Refill",
+                                        "support_message": "If you have any questions, please visit our \u003csupport-link\u003eSupport\u003c/support-link\u003e page. To cancel or manage Auto-Refill, visit your Account page on the Pokémon GO Web Store. Cancellation and changes are not available in-app."
+                                    },
+                                    "paused": {
+                                        "subject": "Your Pokémon GO Auto-Refill has been paused",
+                                        "title": "Your Auto-Refill Has Been Paused",
+                                        "primary_message": "Auto-Refill is currently paused.",
+                                        "secondary_message": "You will not be charged while Auto-Refill is paused.",
+                                        "tertiary_message": "You can resume Auto-Refill at any time from your Account page on the Pokémon GO Web Store."
+                                    },
+                                    "resumed": {
+                                        "subject": "Your Pokémon GO Auto-Refill has resumed",
+                                        "title": "Your Auto-Refill Has Resumed",
+                                        "primary_message": "Auto-Refill is active again.",
+                                        "secondary_message": "You will only be charged when your balance is below the threshold you choose.",
+                                        "tertiary_message": "You can pause or manage Auto-Refill at any time from your Account page on the Pokémon GO Web Store."
+                                    },
+                                    "nearing_monthly_cap": {
+                                        "subject": "You’re nearing your monthly Pokémon GO Auto-Refill limit",
+                                        "title": "You're nearing your monthly Auto-Refill limit",
+                                        "primary_message": "You're close to your monthly Auto-Refill cap.",
+                                        "secondary_message": "If you reach it, Auto-Refills will pause through \u003cpause-through-date\u003e, and resume on \u003cresume-date\u003e.",
+                                        "tertiary_message": "To continue refilling past your cap for this month, go to Account Settings on the Web Store and turn on Unlimited Refills."
+                                    }
+                                }
                             },
                             "sbps_settings": {
                                 "back_to_payment": "Back to Payment Method",
